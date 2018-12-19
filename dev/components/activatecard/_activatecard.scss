@@ -1,0 +1,98 @@
+.certificate-title{
+  font-size: 18px;
+  margin-top: 18px;
+  width: 580px;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 3px;
+}
+.certificate-content{
+  font-size: 0;
+  padding-bottom: 275px;
+  .first-column, .second-column{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .first-column{
+    padding-top: 116px;
+    width: 51.5%;
+.certificate-num-wrap{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  .error-message{
+    font-size: 15px;
+    color: #ff2916;
+    position: absolute;
+    top: -22px;
+    right: 0;
+    display: none;
+  }
+  label{
+    font-size: 18px;
+    font-weight: 300;
+    min-width: 100px;
+
+  }
+  span{
+    color: #ff2916;
+  }
+  input{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #8d8f91;
+    width: 63%;
+    border-radius: 5px;
+  }
+}
+    .btn-activate-wrap{
+      text-align: right;
+    }
+    .activate-btn{
+      display: inline-block;
+      height: 27px;
+      width: 151px;
+      background-color: $green;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      border-radius: 3px;
+      line-height: 24px;
+      cursor: pointer;
+    }
+  }
+  .second-column{
+width: 48.5%;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 30px 26px 0 0;
+
+  }
+}
+#success, #reject{
+  display: none;
+}
+.submit-message{
+  padding: 100px 0;
+  .success-icon, .reject-icon{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+  }
+  .success-icon{
+    background-image: url("img/successicon.png");
+  }
+  .reject-icon{
+    background-image: url("img/rejecticon.png");
+  }
+.message{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+}
